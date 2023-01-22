@@ -1,0 +1,12 @@
+name: EventsPlugin
+version: 1.0
+main: me.needenoughsleep.eventsplugin.EventsPlugin
+api-version: 1.16
+commands:
+  events:
+    usage: /<command>
+    aliases: [e, у]
+    permission: eventsplugin.command.events
+permissions:
+  eventsplugin.command.events:
+    default: true
